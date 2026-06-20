@@ -4,13 +4,14 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from google import genai
 import chromadb
 from pypdf import PdfReader
+from env_helper import get_api_key
 
 load_dotenv()
 
 
 class LocalRAGPipeline:
     def __init__(self, db_dir="./chroma_db"):
-        self.client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY", ""))
+        self.client = genai.Client(api_key=get_api_key())
         # PersistentClient saves the database to disk so we don't have to
         # re-ingest documents every time we run the program.
         self.chroma_client = chromadb.PersistentClient(path=db_dir)

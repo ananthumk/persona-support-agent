@@ -92,6 +92,9 @@ persona-support-agent/
 └── README.md
 ```
 
+## Working Screenshot 
+![alt text](image.png)
+
 ## How It Works
 
 1. **Classification** — each message is sent to Gemini with a structured

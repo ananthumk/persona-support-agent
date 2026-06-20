@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 from retry_utils import call_with_backoff
+from env_helper import get_api_key
 
 # Load environment variables (the API key) from .env
 load_dotenv()
@@ -15,7 +16,7 @@ def classify_customer_persona(user_message: str) -> dict:
     Technical Expert, Frustrated User, or Business Executive.
     Returns a dictionary with persona, confidence, and reasoning.
     """
-    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY", ""))
+    client = genai.Client(api_key=get_api_key())
 
     system_instruction = (
         "You are an advanced classification engine. Your task is to analyze the "

@@ -5,6 +5,7 @@ from google.genai import types
 from config import GEMINI_GENERATION_MODEL
 from escalator import should_escalate, generate_handoff_summary
 from retry_utils import call_with_backoff
+from env_helper import get_api_key
 
 load_dotenv()
 
@@ -64,7 +65,7 @@ def generate_adaptive_response(user_query: str, persona: str, context_chunks: li
         f"FACTUAL CONTEXT DOCUMENTS:\n{context_text}"
     )
 
-    client = genai.Client(api_key=os.environ.get("GEMINI_API_KEY", ""))
+    client = genai.Client(api_key=get_api_key())
 
     response = call_with_backoff(
         client.models.generate_content,
