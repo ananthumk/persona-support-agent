@@ -1,0 +1,84 @@
+BILLING POLICY
+
+1. SUBSCRIPTION PLANS
+
+Free Plan
+- Cost: $0/month
+- Features: Up to 100 API calls/month, Basic support
+- Storage: 1 GB
+- Limitations: No data export, basic analytics
+
+Standard Plan
+- Cost: $29/month (billed monthly) or $290/year (billed annually, saves 17%)
+- Features: 10,000 API calls/month, Priority email support
+- Storage: 100 GB
+- Includes: Advanced analytics, data export
+- Auto-renewal: Yes, cancel anytime before next billing cycle
+
+Professional Plan
+- Cost: $99/month (billed monthly) or $990/year (billed annually, saves 17%)
+- Features: 100,000 API calls/month, Phone support (9am-6pm EST)
+- Storage: 1 TB
+- Includes: Custom integrations, SSO, IP whitelisting
+- Auto-renewal: Yes, dedicated account manager included
+
+Enterprise Plan
+- Cost: Custom pricing based on requirements
+- Features: Unlimited API calls, 24/7 dedicated support
+- Storage: Unlimited
+- Includes: Custom SLA, on-premise deployment option, compliance certifications
+- Negotiated contract terms apply
+
+2. BILLING CYCLE & PAYMENTS
+
+- Billing occurs on the 1st of each month
+- Payment methods accepted: Credit card (Visa, MasterCard, American Express), PayPal, Bank transfer (Enterprise)
+- Invoices sent 5 days before payment due date
+- Failed payment: Account suspended after 48 hours, re-enabled within 24 hours of successful payment
+- Billing timezone: UTC
+
+3. REFUND POLICY
+
+- Full refund available within 7 days of purchase, no questions asked
+- Mid-cycle downgrade: Pro-rated refund issued for unused portion
+- No refund for service suspension due to ToS violations
+- Refunds processed within 5-10 business days to original payment method
+
+4. USAGE OVERAGE
+
+- Standard plan overage: $0.05 per additional 100 API calls
+- Professional plan overage: $0.03 per additional 100 API calls
+- Enterprise: Included in contract terms
+- Customers notified when reaching 80% of monthly quota
+- Automatic overage billing unless usage limits configured
+
+5. CANCELLATION & TERMINATION
+
+- Cancel anytime from account settings
+- No early termination fees
+- Data access remains available for 30 days after cancellation
+- Full data export available before account deletion
+- All recurring charges cease immediately upon cancellation
+
+6. TAXES & FEES
+
+- Prices shown exclude applicable sales tax/VAT
+- Tax rates calculated at checkout based on billing address
+- Invoices include tax details and itemization
+- US: Sales tax collected in applicable states
+- EU: VAT applied per MOSS regulations
+- Non-profit and educational institutions: Tax exemption available (requires documentation)
+
+7. PRICE CHANGES
+
+- 30-day notice provided for price increases
+- Existing customers locked at current rate for 12 months
+- New pricing applies to renewal after 12-month period
+- Customers may cancel within 30 days at no penalty if price increases >10%
+
+8. PAYMENT ISSUES & SUPPORT
+
+- Billing inquiries: billing@example.com
+- Response time: 24 hours for billing questions
+- Payment method update available in account dashboard
+- Disputes must be reported within 30 days of charge
